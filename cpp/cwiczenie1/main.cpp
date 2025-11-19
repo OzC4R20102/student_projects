@@ -6,14 +6,22 @@ int main(){
 int x;
 cout<<"wpisz liczbe";
 cin>>x;
+
+bool pierwsza = true;
+
 if(x<2){
-	cout<<"nie jest pierwsza";
-}
-for(int i=2; i*i <=x;i++){
-	i(x%1==0){
-	cout<<"liczba nie jest pierwsza";
+	pierwsza=false;
 }
 
+for (int a = 2; a<x;a++){
+	if(x%a==0){
+	pierwsza=false;
+  }
+}
+if (pierwsza){
+	cout<<"liczba pierwsza";
+}else{
+	cout<<"liczba nie jest pierwsza";
 }
 	return 0;
 }
