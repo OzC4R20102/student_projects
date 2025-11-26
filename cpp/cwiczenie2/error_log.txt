@@ -1,0 +1,8 @@
+main.cpp: In function ‘int main()’:
+main.cpp:20:13: error: expected ‘;’ before string constant
+   20 |         cout"zgadnij liczbe"<<endl;
+      |             ^~~~~~~~~~~~~~~~
+      |             ;
+main.cpp:23:27: error: ‘else’ without a previous ‘if’
+   23 |         cout<<"zgadles!";}else{
+      |                           ^~~~
